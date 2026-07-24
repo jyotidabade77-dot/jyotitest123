@@ -1,11 +1,12 @@
 {
-  "name": "myproject",
+  "name": "test-node-project",
   "version": "1.0.0",
-  "description": "My first Node.js project",
+  "description": "Simple Node.js project for deployment testing",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "author": "Jyoti",
-  "license": "ISC"
+  "dependencies": {
+    "express": "^4.19.2"
+  }
 }
