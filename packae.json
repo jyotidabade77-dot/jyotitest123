@@ -1,12 +1,11 @@
 {
-  "name": "test-node-project",
+  "name": "frontend-test",
   "version": "1.0.0",
-  "description": "Simple Node.js project for deployment testing",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "start": "node index.js"
+    "start": "npx serve ."
   },
-  "dependencies": {
-    "express": "^4.19.2"
+  "devDependencies": {
+    "serve": "^14.2.4"
   }
 }
